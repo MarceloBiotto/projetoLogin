@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.header{
+    background-color: black;
+    color: white;
+    width: 100wh;
+    height: 12rem;
+    text-align: center;
+    font-size:  4rem;
+    justify-content: center;
+    
+}
+
+.container{
+    text-align: center;
+    align-items:  center;
+    background-image: url(depositphotos_22104925-stock-photo-game-controller-and-blue-light\ 1.jpg.png);
+    height: 800px;
+  width: 100wh;
+}
