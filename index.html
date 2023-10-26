@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tela de Login</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="header">
-        <h1 class="titulo">Polystation</h1>
+      <h1 class="titulo">Polystation</h1>
     </header>
 
     <main>
-       
-
         <div class="container">
-            
+            <div>
+                <p class="acesso">
+                    Inicie uma sessão no Polystation com uma das suas
+                    contas.  <strong>Saiba mais</strong>
+                </p>
+            </div>
+             <div class="campos">
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="ID de inicio de sessão(endereço de email)"
+                    class="input"
+                />
+                </div>
             <div class="campos">
-                    
-                   <input type="text" name="username" id="username" placeholder="Inicie sua sessão no Polystation com uma das suas contas." class="input">
+                <button class="button" type="submit">Seguinte</button>
+            </div>
+            <div class="conectar">
+                <p>Ou conecte-se com uma de suas redes.  <strong>Saiba mais</strong></p>
             </div>
 
-            <div class="campos">
-                <button class="button">Seguinte</button>
-            </div>
-            <div class="campos">
-                <input type="password" name="password" id="password" placeholder="ID de inicio de sessão(endereço de email)" class="input">
-            </div>
-            <div class="campos">
-                
-            </div>
+              
 
-            <div class="relembrar-senha">
-                <label>
-                    <input type="checkbox"> Remember me
-                </label>
-                <a href="./src/pages/forgot-password.html">Suporte</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="campos">
-                
-            </div>
         </div>
     </main>
-
-    
-</body>
+  </body>
 </html>
