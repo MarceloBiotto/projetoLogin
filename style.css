@@ -61,6 +61,19 @@
   margin-bottom: 35px;
   padding: 8px;
 }
+
+.container-redes{
+  display: flex;
+  flex-direction: row;
+  gap: 63px;
+  
+}
+.container-redes .imagem-rede{
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+}
+
 strong{
 
   color: rgb(10, 132, 202);
@@ -71,3 +84,14 @@ strong:hover {
 
   color: red;
 }
+
+.conectar-fim{
+  width: 350px;
+  height: 53px;
+  background-color: white;
+  border: solid 1px black;
+  margin-top: 20px;
+  justify-content: center;
+  padding: 13px 8px;
+}
+
