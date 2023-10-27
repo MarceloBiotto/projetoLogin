@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tela de Login</title>
     <link rel="stylesheet" href="style.css" />
+   
   </head>
   <body>
     <header class="header">
@@ -21,16 +22,16 @@
             </div>
              <form class="campos">
                 <input
-                    type="id"
-                    name="id"
-                    id="id"
-                    placeholder="ID de inicio de sessão(endereço de email)"
-                    class="input" required
+                    type="text"
+                    name="nome"
+                    id="nomeId"
+                    placeholder="ID de inicio de sessão(seu nome)"
+                    class="input" 
                 />
-                
+                <div class="campos">
+                    <button class="button" type="button" onclick="nomear()">Seguinte</button>
                 </form>
-            <div class="campos">
-                <button class="button" type="submit"><a href="#">Seguinte</a></button>
+
             </div>
             <div class="conectar">
                 <p>Ou conecte-se com uma de suas redes.  <strong><a href="#" class="link-saibaMais">Saiba mais</a></strong></p>
@@ -62,6 +63,8 @@
         </div>
 
         
+   
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
