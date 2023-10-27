@@ -102,7 +102,14 @@ a {
   color: white;
   font-size: 1.5rem;
 }
-
+.link-saibaMais{
+  text-decoration: none;
+  font-size: 16px;
+  color:  rgb(10, 132, 202);
+}
+.link-saibaMais:hover{
+  color: red;
+}
 a:hover {
 
   color: red;
