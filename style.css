@@ -85,6 +85,8 @@ strong:hover {
   color: red;
 }
 
+
+
 .conectar-fim{
   width: 350px;
   height: 53px;
@@ -95,3 +97,18 @@ strong:hover {
   padding: 13px 8px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+
+  color: red;
+}
+
+.img-suporte{
+ margin-left: 1055px;
+ 
+
+}
