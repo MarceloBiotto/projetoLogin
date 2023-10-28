@@ -5,7 +5,6 @@ function nomear(){
     if(nome.length == 0 || senhaInput.length == 0 ){
         alert('Preencha o campo corretamente!');
     }else{
-        alert('Funcionou!');
         localStorage.setItem('nome', nome);
         window.location.href = 'janelaJogos.html';
 
