@@ -1,10 +1,18 @@
 function nomear(){
-    let nome = document.getElementById('nomeId');
-    let senhaInput = document.getElementById('senhaId');
-    if(nome.value.length == 0 || senhaInput.value.length == 0 ){
+    let nome = document.getElementById('nomeId').value;
+    let senhaInput = document.getElementById('senhaId').value;
+    
+    if(nome.length == 0 || senhaInput.length == 0 ){
         alert('Preencha o campo corretamente!');
     }else{
         alert('Funcionou!');
+        localStorage.setItem('nome', nome);
+        window.location.href = 'janelaJogos.html';
 
     }
+}
+
+function bemVindo(){
+    let nomeUsuario = localStorage.getItem('nome'); 
+    console.log(nomeUsuario);
 }
