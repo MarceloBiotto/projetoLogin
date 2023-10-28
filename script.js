@@ -15,4 +15,10 @@ function nomear(){
 function bemVindo(){
     let nomeUsuario = localStorage.getItem('nome'); 
     console.log(nomeUsuario);
+    let novaMensagem = document.querySelector('.mensagemBoasVindas');
+    novaMensagem.textContent = `Bem vindo(a) ${nomeUsuario}!`;
+
+
+
+
 }

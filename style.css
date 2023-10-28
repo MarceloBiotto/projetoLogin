@@ -20,7 +20,7 @@
   align-items: center;
   background-image: url(depositphotos_22104925-stock-photo-game-controller-and-blue-light\ 1.jpg.png);
   width: 100%;
-  height: 103vh;
+  height: 78vh;
   background-size: cover;
   background-color: rgb(146, 210, 247);
   background-position: 50% 100%;
@@ -85,7 +85,10 @@ strong:hover {
 
   color: red;
 }
-
+.button:hover{
+  font-size: 18px;
+  color: red;
+}
 
 
 .conectar-fim{
@@ -120,4 +123,10 @@ a:hover {
  margin-left: 1055px;
  
 
+}
+
+.mensagemBoasVindas{
+  color: white;
+  font-size: 28px;
+  padding: 1rem;
 }
