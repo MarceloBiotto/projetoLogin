@@ -160,7 +160,7 @@ font-size: 2rem;
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .container{
-    height: 110vh;
+    height: 114vh;
     
   }
   .jogos{
