@@ -132,7 +132,32 @@ a:hover {
   padding: 1rem;
 }
 
+.home{
+font-size: 2rem;
 
+}
+
+.jogos{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.card-jogos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  
+}
+.botao-jogar{
+  width: 4rem;
+  border-radius: 1rem;
+}
+
+.imagem-card{
+  width: 10rem;
+  border-radius: 1rem;
+}
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .container{
     height: 100vh;
