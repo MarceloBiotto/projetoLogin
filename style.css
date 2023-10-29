@@ -122,6 +122,7 @@ a:hover {
 .img-suporte{
  margin-left: 1055px;
  
+ 
 
 }
 
@@ -129,4 +130,83 @@ a:hover {
   color: white;
   font-size: 28px;
   padding: 1rem;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container{
+    height: 100vh;
+    
+  }
+  .img-suporte{
+    margin-left: 0;
+    font-size: 16px;
+    
+  }
+   .header {
+    height: 8rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+         
+  }
+  
+   .button, .conectar, .acesso, .input, .conectar-fim{
+    width: 300px;
+   }
+   }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container{
+    height: 100vh;
+    
+  }
+  .img-suporte{
+    margin-left: 0;
+    font-size: 16px;
+    
+  }
+   .header {
+    height: 10rem;
+    text-align: center;
+    font-size: 3rem;
+         
+  }
+   }
+
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container{
+    height: 105vh;
+    
+  }
+  .img-suporte{
+    margin-left: 0;
+    font-size: 16px;
+    
+  }
+
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container{
+    height: 90vh;
+    
+  }
+  .img-suporte{
+    margin-left: 580px;
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container{
+    height: 90vh;
+    
+  }
+  .img-suporte{
+    margin-left: 580px;
+    font-size: 16px;
+    
+  }
 }
