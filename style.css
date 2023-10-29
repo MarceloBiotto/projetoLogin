@@ -150,6 +150,9 @@ a:hover {
     padding: 1rem;
          
   }
+  .acesso{
+    font-size: 14px;
+  }
   
    .button, .conectar, .acesso, .input, .conectar-fim{
     width: 300px;
