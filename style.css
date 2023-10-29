@@ -61,6 +61,7 @@
   margin-top: 123px;
   margin-bottom: 35px;
   padding: 8px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .container-redes{
@@ -74,7 +75,10 @@
   margin-top: 5px;
   display: flex;
 }
-
+p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+}
 strong{
 
   color: rgb(10, 132, 202);
