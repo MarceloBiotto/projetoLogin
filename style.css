@@ -282,4 +282,10 @@ font-size: 2rem;
     font-size: 16px;
     
   }
+  @media screen and (min-width: 1360px) and (max-width: 1400px) {
+    .container{
+      height: 114vh;
+      
+    }
+  }
 }
